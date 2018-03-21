@@ -16,7 +16,7 @@ lazy val versions = new {
 lazy val dependencies = Seq(
   libraryDependencies += "com.chuusai" %%% "shapeless" % versions.shapeless,
   libraryDependencies += "org.scala-lang" % "scala-reflect" % scalaVersion.value,
-  libraryDependencies += "com.propensive" %% "magnolia" % "0.7.1",
+  libraryDependencies += "com.propensive" %%% "magnolia" % "0.7.1",
   libraryDependencies += "org.scalatest" %%% "scalatest" % versions.scalatest % "test"
 )
 
